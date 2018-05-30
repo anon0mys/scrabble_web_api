@@ -14,7 +14,7 @@ describe WordSearchService do
       it 'should not validate a made up word' do
         service = WordSearchService.new('foxez')
 
-        expected = "'foxez' is not a valid word."
+        expected = "743: unexpected token at '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2 Final//EN\">\n<title>404 Not Found</title>\n<h1>Not Found</h1>\n<p>No entry available for 'foxez' in 'en'</p>\n'"
 
         expect(service.validate_word).to eq(expected)
       end

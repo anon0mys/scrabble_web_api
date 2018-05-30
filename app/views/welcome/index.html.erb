@@ -4,3 +4,9 @@
                      placeholder: "Enter Word to Validate") %>
   <%= submit_tag 'Validate Word' %>
 <% end %>
+
+<div class="results">
+  <% flash.each do |type, message| %>
+    <%= content_tag :div, sanitize(message), class: type %>
+  <% end %>
+</div>
