@@ -1,0 +1,156 @@
+{
+    "metadata": {
+        "provider": "Oxford University Press"
+    },
+    "results": [
+        {
+            "id": "banana",
+            "language": "en",
+            "lexicalEntries": [
+                {
+                    "entries": [
+                        {
+                            "etymologies": [
+                                "late 16th century: via Portuguese or Spanish from Mande"
+                            ],
+                            "grammaticalFeatures": [
+                                {
+                                    "text": "Singular",
+                                    "type": "Number"
+                                }
+                            ],
+                            "homographNumber": "000",
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "a long curved fruit which grows in clusters and has soft pulpy flesh and yellow skin when ripe"
+                                    ],
+                                    "domains": [
+                                        "Variety"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "a bunch of bananas"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0070440.007",
+                                    "short_definitions": [
+                                        "long curved fruit which grows in clusters and has soft pulpy flesh and yellow skin"
+                                    ],
+                                    "thesaurusLinks": [
+                                        {
+                                            "entry_id": "psychopathic",
+                                            "sense_id": "t_en_gb0011830.001"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "the tropical and subtropical palmlike plant that bears bananas, having very large leaves but lacking a woody trunk."
+                                    ],
+                                    "domains": [
+                                        "Plant"
+                                    ],
+                                    "id": "m_en_gbus0070440.011",
+                                    "notes": [
+                                        {
+                                            "text": "Genus Musa, family Musaceae: several species, in particular M. sapientum",
+                                            "type": "technicalNote"
+                                        }
+                                    ],
+                                    "short_definitions": [
+                                        "tropical and subtropical plant which bears bananas"
+                                    ],
+                                    "variantForms": [
+                                        {
+                                            "text": "banana tree"
+                                        },
+                                        {
+                                            "text": "banana plant"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en",
+                    "lexicalCategory": "Noun",
+                    "pronunciations": [
+                        {
+                            "audioFile": "http://audio.oxforddictionaries.com/en/mp3/banana_gb_1.mp3",
+                            "dialects": [
+                                "British English"
+                            ],
+                            "phoneticNotation": "IPA",
+                            "phoneticSpelling": "bəˈnɑːnə"
+                        }
+                    ],
+                    "text": "banana"
+                },
+                {
+                    "entries": [
+                        {
+                            "homographNumber": "001",
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "insane or extremely silly"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "I've spent two months in a studio—I must be bananas"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0070440.018",
+                                    "notes": [
+                                        {
+                                            "text": "\"bananas\"",
+                                            "type": "wordFormNote"
+                                        }
+                                    ],
+                                    "registers": [
+                                        "informal"
+                                    ],
+                                    "short_definitions": [
+                                        "insane or extremely silly"
+                                    ],
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "extremely angry or excited"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "she went bananas when I said I was going to leave the job"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0070440.038",
+                                            "short_definitions": [
+                                                "become extremely angry or excited"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en",
+                    "lexicalCategory": "Adjective",
+                    "pronunciations": [
+                        {
+                            "audioFile": "http://audio.oxforddictionaries.com/en/mp3/banana_gb_1.mp3",
+                            "dialects": [
+                                "British English"
+                            ],
+                            "phoneticNotation": "IPA",
+                            "phoneticSpelling": "bəˈnɑːnə"
+                        }
+                    ],
+                    "text": "banana"
+                }
+            ],
+            "type": "headword",
+            "word": "banana"
+        }
+    ]
+}

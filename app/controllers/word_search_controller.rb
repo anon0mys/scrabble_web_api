@@ -1,6 +1,7 @@
 class WordSearchController < ApplicationController
   def create
-    @validation = WordValidator.new(params[:word_search])
+    @validation = WordSearchPresenter.new(params[:word_search])
+    flash[:validation] = @validation.result
     redirect_to '/'
   end
 end
