@@ -12,6 +12,11 @@ describe WordSearchService do
       end
 
       it 'should not validate a made up word' do
+        service = WordSearchService.new('foxez')
+
+        expected = "'foxez' is not a valid word."
+
+        expect(service.validate_word).to eq(expected)
       end
     end
   end
