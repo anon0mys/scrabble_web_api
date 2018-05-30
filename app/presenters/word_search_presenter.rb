@@ -18,11 +18,12 @@ class WordSearchPresenter
   private
 
   def evaluate_response(response)
-    if response.include?('No entry available')
+    if response.include?('Not Found')
       "'#{@word}' is not a valid word."
     else
       search_term = response[:results].first[:id]
-      "'#{@word}' is a valid word and its root form is '#{search_term}'."
+      root = response[:results].first[:lexicalEntries].first[:inflectionOf].first[:id]
+      "'#{search_term}' is a valid word and its root form is '#{root}'."
     end
   end
 end

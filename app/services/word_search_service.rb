@@ -1,6 +1,6 @@
 class WordSearchService
   def initialize(word)
-    @conn = Faraday.new(url: "https://od-api.oxforddictionaries.com/api/v1/entries/en/#{word.singularize}")
+    @conn = Faraday.new(url: "https://od-api.oxforddictionaries.com/api/v1/inflections/en/#{word}")
   end
 
   def validate_word
