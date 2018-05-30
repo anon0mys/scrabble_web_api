@@ -1,0 +1,6 @@
+<%= form_tag '/word-search', method: :post, class: "word_search" do %>
+  <%= text_field_tag(:word_search,
+                     params[:word_search],
+                     placeholder: "Enter Word to Validate") %>
+  <%= submit_tag 'Validate Word' %>
+<% end %>
