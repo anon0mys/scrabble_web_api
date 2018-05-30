@@ -49,5 +49,16 @@ describe 'API::V1::Games' do
 
       expect(response.body).to eq(expected_json)
     end
+
+    it 'does not score invalid words' do
+      word = 'foxez'
+      params = { user_id: 1, word: word }
+
+      post '/api/v1/games/1/plays', params: params
+
+      expected_json = {"message": "'#{word}' is not a valid word."}.to_json
+
+      expect(response.body).to eq(expected_json)
+    end
   end
 end

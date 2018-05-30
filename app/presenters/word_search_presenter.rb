@@ -7,8 +7,12 @@ class WordSearchPresenter
   end
 
   def result
-    response = @service.validate_word
-    evaluate_response(response)
+    @response ||= @service.validate_word
+    evaluate_response(@response)
+  end
+
+  def valid_word?
+    result.include?('is a valid word')
   end
 
   private

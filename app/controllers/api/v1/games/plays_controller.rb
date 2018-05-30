@@ -1,8 +1,12 @@
 class Api::V1::Games::PlaysController < ApiController
   def create
-    user_play = Play.new(play_params)
-    user_play.save
-    head 201
+    presenter = WordSearchPresenter.new(params[:word])
+    if presenter.valid_word?
+      Play.create(play_params)
+      head 201
+    else
+      render json: {"message": presenter.result}
+    end
   end
 
   private
