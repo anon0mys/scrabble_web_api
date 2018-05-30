@@ -47,7 +47,7 @@ describe 'API::V1::Games' do
                             score: 16 }
                         ] }.to_json
 
-      expect(response).to eq(expected_json)
+      expect(response.body).to eq(expected_json)
     end
   end
 end
