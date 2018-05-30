@@ -1,6 +1,7 @@
 class Api::V1::GamesController < ApiController
   def show
     game = Game.find(params[:id])
-    render json: game
+    presenter = GamePresenter.new(game)
+    render json: presenter.stats
   end
 end
