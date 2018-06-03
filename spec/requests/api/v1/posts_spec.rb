@@ -17,6 +17,7 @@ describe 'API::V1::Games::Plays' do
       post '/api/v1/games/1/plays', params: params
 
       expect(response.status).to eq(201)
+      expect(response.body).to include(params[:word])
 
       get '/api/v1/games/1'
 

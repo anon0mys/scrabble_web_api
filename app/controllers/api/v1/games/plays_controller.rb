@@ -3,7 +3,7 @@ class Api::V1::Games::PlaysController < ApiController
     presenter = WordSearchPresenter.new(params[:word])
     if presenter.valid_word?
       Play.create(play_params)
-      head 201
+      render json: { word: params[:word] }, status: 201
     else
       render json: {"message": presenter.result}
     end
